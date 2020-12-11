@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<link rel="shortcut icon" href="pics/fav.png" type="image/x-icon">
+ 	 	<link rel="stylesheet" href="CSS/style.css">
+  <meta charset="utf-8">
+  <title>Нюрбургринг</title>
+  <script>
+        function ShowAlert(){
+        alert("Бронь успешно проведена!!")
+        }
+    </script>
+ </head>
+  	<style>
+   body {
+    background:
+     url(pics/nurb.png) fixed 
+   }
+  </style>
+  <a class="back_to_top" title="Наверх">↑</a>
+<body>
+	<div id="wrapper">
+		<header><img src="pics/nurl.png"></header>
+		<nav> 
+			<ul class="top-menu">
+				<h1><li><a href="index.html">Главная страница</a></li>
+				<li><a href="try.html">РДС</a></li>
+			</ul>
+		</nav>
+    <aside>
+    <nav>
+        <ul class="aside-menu">
+          <li><a href="NURRR.html">Участие в гонках</a></li>
+          <li><a href="NURR.html">История кольца</a></li></h1>
+        </ul>
+      </nav>
+    </aside>
+		<section >
+<form class="form" name="feedback" method="POST" action="#">
+  <h1><div class="caption">Бронирование</div>
+  <div class="infofield">Что вы хотите забронировать?</div>
+  <select name="theme" required="required">
+    <option value="">Какую машину вы хотите забронировать</option>
+    <option>Renault Megane RS</option>
+    <option>BMW M235</option>
+    <option>BMW M2</option>
+    <option>Porsche Cayman S</option>
+    <option>BMW M3</option>
+    <option>BMW M4</option>
+    <option>Porsche 991 GT3</option>
+    <option>Lamborghini Gallardo</option>
+    <option>Ferrari 458 Italia</option>
+    <option>Lamborghini Huracan</option>
+  </select>
+  <div>Ваше ФИО</div>
+  <input type="text" name="name" required="required">
+  <div>Ваша электронная почта</div>
+  <input type="email" name="email" required="required">
+  <div>Дата начала аренды</div>
+    <input type="date" id="date" name="date"/>
+    <div>Дата окончания аренды</div>
+    <input type="date" id="date" name="date"/>
+  </select>
+    <p align="center"><button class= "button" onclick="ShowAlert()">Забронировать</button></p>
+</form></h1>
+		</section>
+	</div>
+  <script src="anim.js"></script>
+</body>
+</html>
