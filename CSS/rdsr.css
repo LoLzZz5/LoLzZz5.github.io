@@ -1,0 +1,118 @@
+#wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+.menu {
+    width: 960px; /* Ширина меню */
+    padding: 5px; /* Отступы от рамки до пунктов меню */
+    border: 1px; /* Рамка вокруг меню */
+    background: #1A1818;
+    background: linear-gradient(to top, #1A1818, #6E6E6E);
+    border-radius: 10px;
+   } 
+.main{
+margin: auto;
+}
+  .menu2{
+  width: 960px; /* Ширина меню */
+    padding: 5px; /* Отступы от рамки до пунктов меню */
+    border: 1px; /* Рамка вокруг меню */
+    left : 400px;
+  bottom: 75px;
+   background: linear-gradient(to right, #c20047, #ed06a2);
+    border-radius: 10px;
+}
+a{
+	text-decoration: none;
+  color:#ed06a2;
+}
+a:hover {
+    text-decoration: underline;
+   }
+
+h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight:normal;
+      font-size: 18px; /* Размер шрифта в пунктах */ 
+}
+h3{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight:normal;
+      font-size: 18px; /* Размер шрифта в пунктах */ 
+  color:#ed06a2;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   background: linear-gradient(to right, #c20047, #ed06a2);
+}
+
+ul2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 200%; /* Размер шрифта в процентах */ 
+}
+.center {
+    width: 1000px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    background: #FFFFFF; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+   }
+
+.active {
+    background-color: #4CAF50;
+}
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center2 {
+  position: absolute;
+  left: 1480px;
+  top:205px;
+    width: 250px; /* Ширина элемента в пикселах */
+    height: 160px;
+    padding: 10px; /* Поля вокруг текста */
+    background: #FFFFFF; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+   }
+
+   h100{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   }
+   h100:hover {
+    text-decoration: underline;
+   }
